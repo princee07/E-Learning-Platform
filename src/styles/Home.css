@@ -1,0 +1,76 @@
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    padding: 15px 30px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .auth-buttons .btn {
+    background: white;
+    color: #007bff;
+    padding: 8px 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 50px;
+    background: #f4f4f4;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+  }
+  
+  .explore-btn {
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  /* Features Section */
+  .features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+  }
+  
+  .feature-box {
+    width: 22%;
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  

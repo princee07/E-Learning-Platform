@@ -1,8 +1,20 @@
 {
   "name": "frontend",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "homepage": "https://github.com/princee07/E-Learning-Platform#readme",
+  "bugs": {
+    "url": "https://github.com/princee07/E-Learning-Platform/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/princee07/E-Learning-Platform.git"
+  },
+  "license": "ISC",
+  "author": "",
   "type": "module",
+  "main": "eslint.config.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,7 +23,8 @@
   },
   "dependencies": {
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",
